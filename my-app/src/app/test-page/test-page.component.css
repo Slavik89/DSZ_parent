@@ -1,0 +1,37 @@
+div{
+    text-align: center;
+}
+
+form {
+    font-size: x-large;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    
+}
+input {
+    display: flex;
+    border-radius: 6px;
+    width: 100%;
+    font-size: larger;
+    border: 2px solid rgba(54, 177, 60, 0.562);
+    color:black; 
+    background-color: rgba(54, 177, 60, 0.562);
+
+    
+}
+.forma {
+    display: flex;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+
+    padding: 10px;
+    margin: 5%;
+    height: auto;
+
+    border: 1px solid rgba(54, 177, 60, 0.562);    
+    border-radius: 6px;
+
+}

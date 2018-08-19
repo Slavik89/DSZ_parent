@@ -1,0 +1,36 @@
+.mainBlock {
+    display: flex;
+    align-self: center;
+    width: auto;
+    height: auto;
+}
+
+.catalogPart {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    
+    width: 160px;
+    height: 200px;
+    margin: 2%;
+    border: 2px solid rgba(54, 177, 60, 0.562);
+    border-radius: 6px;
+    box-shadow: 0 5px #999;
+    cursor: pointer;
+
+}
+
+
+.catalogPart:active {
+  box-shadow: 0 3px #666;
+  transform: translateY(4px);
+}
+
+img{
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    background-color: #666;
+}

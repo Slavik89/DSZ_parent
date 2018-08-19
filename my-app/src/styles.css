@@ -1,0 +1,9 @@
+body {
+    /* background-color: aquamarine; */
+    margin: 0;
+    
+    position: static;
+    overflow: scroll;
+    background: linear-gradient(to bottom, white, green); 
+}
+
