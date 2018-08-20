@@ -24,11 +24,8 @@ header{
 
     margin-bottom: 2vh;
     box-shadow: 0 4px 12px 0 rgba(0,0,0,0.2), 0 4px 14px 0 rgba(0,0,0,0.19);
-
-
     /* тут буде пікча */
 }
-
 
 /* Тіло сайту */
 
@@ -133,3 +130,17 @@ img {
     text-align: center;
 
 }
+
+/* Main logo image */
+.mainLogo{
+    height: 100px;
+    width: 200px;            
+}
+
+header img{
+    display: flex;
+    flex: 1;
+    justify-content: left;
+    align-items: center;
+}
+
