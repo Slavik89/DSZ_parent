@@ -5,7 +5,7 @@
     flex-wrap: wrap;
     height: 100%;
     margin-left: 5%;
-    margin-right: 5%;
+    margin-right: 5%;    
 }
 /* глобальні параметри тексту */
 .testBody {
@@ -15,8 +15,8 @@
 /* Шапка */
 header{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+    align-items: center; 
     height: 20vh;
     width: 100%;
     border: 1px solid rgba(54, 177, 60, 0.562);
@@ -134,13 +134,17 @@ img {
 /* Main logo image */
 .mainLogo{
     height: 100px;
-    width: 200px;            
+    width: 200px; 
+    border: 2px solid rgba(81, 91, 109, 0.562);
+    border-radius: 8px;           
 }
 
-header img{
-    display: flex;
-    flex: 1;
-    justify-content: left;
-    align-items: center;
+div pre{
+    padding: 7px 7px 7px 7px;
+    font: 1em/1.4 Segoe, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    font-size: 4vh;
 }
+
+
+
 
