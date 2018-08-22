@@ -140,7 +140,7 @@ img {
 }
 
 div pre{
-    padding: 7px 7px 7px 7px;
+    margin: 30px ;
     font: 1em/1.4 Segoe, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
     font-size: 4vh;
 }
